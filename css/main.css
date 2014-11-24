@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+	height:500px;
+	width:450px;
+	background:grey;
+	margin:0 auto;
+	overflow:hidden;
+}
+.inner_wrapper {
+	height:500px;
+	width:450px;
+	position:relative;
+}
+.background {
+	height:3000px;
+	width:450px;
+	position: absolute;
+	top:-2500px;
+	background:url(../image/road-strip.png) repeat-y;
+}
+#gameOver {
+	height:500px;
+	width:450px;
+	position:absolute;
+}
+.opponent {
+	width:40px;
+	height:77px;
+	background:url(../image/opponent-car.png);
+	position:absolute;
+}
+.my-car {
+	width:40px;
+	height:77px;
+	top:400px;
+	left:200px;
+	background:url(../image/car-2-new.png);
+	position:absolute;
+}
